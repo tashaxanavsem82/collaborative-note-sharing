@@ -10,7 +10,7 @@ const io = socketIo(server);
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/collaborative-notes', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/collaborative-notes', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
