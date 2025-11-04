@@ -16,6 +16,6 @@
   "devDependencies": {
     "nodemon": "^2.0.7"
   },
-  "author": "New Author <updated-email@example.com>",
+  "author": "New Author <new-email@example.com>",
   "license": "MIT"
 }
